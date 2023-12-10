@@ -1,0 +1,7 @@
+
+/* lorque l'utilisteur marque la tâche comme faite je barre celle-ci */
+.task > input:checked+label{
+
+    text-decoration: line-through;
+}
+
